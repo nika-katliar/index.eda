@@ -161,9 +161,13 @@ body {
     url(.png);
 }
 .promo {
+  display: flex;
   padding-top: 15px;
+  padding-bottom: 50px;
+  justify-content:space-between;
 }
 .card {
+  flex: 50%;
   position: relative;
   border-radius: 20px;
   overflow: hidden;
