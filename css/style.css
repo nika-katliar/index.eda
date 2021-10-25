@@ -299,4 +299,107 @@ body {
 .tabs-title {
   margin-top: 0;
   margin-bottom: 13px;
+  font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+}
+.tabs-descripthion{
+  font-weight: 500;
+font-size: 14px;
+line-height: 23px;
+color: #B9B9BE;
+}
+
+.tabs-price{
+  font-weight: 500;
+font-size: 23px;
+line-height: 23px;
+color: #4B4B51;
+display: block;
+margin-bottom: 5px;
+}
+
+.tabs-weight{
+  font-weight: 500;
+font-size: 17px;
+line-height: 20px;
+color: #AAAAB1;
+}
+.tabs-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button-outline{
+  background-color: transparent;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #F37321;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 25px;
+padding-right: 25px;
+border: 2px solid #F37321;
+box-sizing: border-box;
+border-radius: 33px;
+cursor: pointer;
+}
+.tabs{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 62px;
+}
+.tabs-link{
+  font-size: 20px;
+line-height: 23px;
+text-decoration: none;
+color: #49494F;
+margin-right: 58px;
+}
+.tabs-link.active{
+ color: #F37321;
+}
+.button-center{
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+  width: 315px;
+
+
+}
+
+
+
+
+.footer{
+  padding: 40px 0;
+  background: #F6F6F6;
+}
+.footer-wrapper{
+  display: flex;
+  align-items: center;
+}
+.footer-logo{
+  margin-right: 50px;
+}
+.footer-link{
+font-size: 16px;
+line-height: 23px;
+text-decoration: underline;
+color:#000000;
+margin-right: 50px;
+}
+.social-links{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+ 
+}
+.social-link{
+  margin-left: 20px;
+  text-decoration: none;
 }
