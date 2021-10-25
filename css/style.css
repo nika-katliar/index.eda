@@ -172,7 +172,7 @@ body {
 }
 .promo {
   display: flex;
-  padding-top: 15px;
+  padding-top: 50px;
   padding-bottom: 50px;
   justify-content: space-between;
   margin: -20px;
@@ -204,6 +204,16 @@ body {
 }
 .card-text-light {
   color: white;
+}
+.tabs-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin: -20px;
+}
+.tabs-card {
+  margin: 10px;
 }
 .card-title {
   font-weight: 500;
@@ -421,7 +431,7 @@ body {
 .swiper {
   position: relative;
 }
-@media (max-width: 1260px){
+@media (max-width: 1260px) {
   .container {
     max-width: 960px;
   }
@@ -429,56 +439,51 @@ body {
     margin-left: 40px;
     margin-right: 40px;
   }
-  .tabs-content{
-     flex-wrap: wrap; /*eсли чтото не помещается, то перенести */
-    }
-    .tabs-card{
-      flex: 50%;
-      max-width: calc(50% - 30px);
-
-    }
-}
-@media (max-width: 992px){
-  .container {
-    width:750px;
-
-}
-.slide{
-  padding: 70px;
-}
-.delivery-card {
-  width: calc(50% - 30px);
-}
-.footer-logo{
-  margin-right: 40px;
-
+  .tabs-content {
+    flex-wrap: wrap; /*eсли чтото не помещается, то перенести */
+  }
+  .tabs-card {
+    flex: 50%;
+    max-width: calc(50% - 30px);
   }
 }
-@media (max-width: 768px){
-.container {
-  width:560px;
+@media (max-width: 992px) {
+  .container {
+    width: 750px;
+  }
+  .slide {
+    padding: 70px;
+  }
+  .delivery-card {
+    width: calc(50% - 30px);
+  }
+  .footer-logo {
+    margin-right: 40px;
+  }
 }
-.header{
-  flex-wrap: wrap;
+@media (max-width: 768px) {
+  .container {
+    width: 560px;
+  }
+  .header {
+    flex-wrap: wrap;
+  }
+  .search-form {
+    order: 5;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .promo {
+    flex-wrap: wrap;
+  }
 }
-.search-form{
-  order: 5;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 15px;
-  margin-bottom: 15px;
-
-}
-.promo {
-  flex-wrap: wrap;
-}
-}
-@media (max-width: 576px){
-  .container{
+@media (max-width: 576px) {
+  .container {
     max-width: 95%;
   }
-  .tabs-card{
+  .tabs-card {
     max-width: 100%;
   }
-
 }
