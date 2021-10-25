@@ -263,7 +263,7 @@ body {
   margin-bottom: 47px;
 }
 .deliveri-week {
-  padding: 100px 0;
+  padding: 52px 0;
 }
 .delivery-cards {
   display: flex;
@@ -485,5 +485,8 @@ body {
   }
   .tabs-card {
     max-width: 100%;
+  }
+  .footer {
+    flex-wrap: wrap;
   }
 }
