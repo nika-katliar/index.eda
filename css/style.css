@@ -400,6 +400,7 @@ body {
 }
 .footer-logo {
   margin-right: 50px;
+  
 }
 .footer-link {
   font-size: 16px;
@@ -407,11 +408,13 @@ body {
   text-decoration: underline;
   color: #000000;
   margin-right: 50px;
+  
 }
 .social-links {
   display: flex;
   align-items: center;
   margin-left: auto;
+  margin-top: 22px;
 }
 .social-link {
   margin-left: 20px;
@@ -494,6 +497,9 @@ flex-wrap: wrap;
     -webkit-box-pack: center;
   }   
   .social-link{
-     width: calc(50% - 30px);
+    margin-left: 0;
+    width: 124px;
+        justify-content: space-between;
+    
   }
 }
